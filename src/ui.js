@@ -536,6 +536,7 @@ function handleCC(cc, val) {
                 selectedKnob = -1;
                 selectedPad = -1;
                 selectedButton = -1;
+                settingsMenuStack.setSelectedIndex(0);
             }
         } else if (viewMode !== VIEW_MAIN) {
             viewMode = VIEW_MAIN;
