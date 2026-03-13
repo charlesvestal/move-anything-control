@@ -114,7 +114,7 @@ let cable = 2;
 let shiftHeld = false;
 let needsRedraw = true;
 let tickCount = 0;
-const REDRAW_INTERVAL = 6;
+const REDRAW_INTERVAL = 30;
 
 /* Colour sweeps */
 const cachedKnobColour = {};
